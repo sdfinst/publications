@@ -531,9 +531,3 @@ The first concrete output of this **request for discussion** would be comparing 
 49. **The JAM Toaster** — https://www.youtube.com/watch?v=YZP3kJKfqSw
 50. **JAM Implementers discussion: fairness and improved prospects in a multi-economy JAM** — https://matrix.to/#/!wBOJlzaOULZOALhaRh:polkadot.io/$ZarNZvHEGjrAMcBOBAnzakLHWHNG6OnM3fGZiqk63QQ?via=polkadot.io&via=matrix.org&via=parity.io
 51. **Kusama burn-based tokenomics discussion** — https://forum.polkadot.network/t/wfc-burn-based-tokenomics-for-kusama-the-ethereum-model-not-a-hard-cap/16540
-
-## How to respond
-
-This is a public discussion draft, not a funding, migration, or governance proposal. Feedback is welcome through the [publication repository's issue tracker](https://github.com/sdfinst/publications/issues). Please identify the relevant section and, where possible, include supporting evidence or an alternative formulation.
-
-Material revisions will be published as a new tagged edition with a corresponding changelog entry. The feedback period is open until the authors announce a subsequent edition or a formal governance proposal.
