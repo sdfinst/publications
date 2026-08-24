@@ -18,10 +18,10 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
       - run: npm run validate
       - run: npm run build
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: integration-files
           path: dist/
@@ -31,7 +31,11 @@ jobs:
     needs: validate
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref }}
+      - uses: actions/download-artifact@v5
         with:
           name: integration-files
           path: dist/
