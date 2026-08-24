@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Publication article metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "slug", "title", "summary", "authors", "published", "updated", "tags", "status", "license"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "title": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string", "minLength": 1 },
+    "authors": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "published": { "type": "string", "format": "date" },
+    "updated": { "type": "string", "format": "date" },
+    "tags": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "status": { "enum": ["draft", "published"] },
+    "license": { "type": "string", "minLength": 1 },
+    "canonicalUrl": { "type": "string", "format": "uri" }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "publications",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Versioned long-form publications and integration feeds.",
+  "scripts": {
+    "validate": "node scripts/build-catalog.mjs --validate-only",
+    "build": "node scripts/build-catalog.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
