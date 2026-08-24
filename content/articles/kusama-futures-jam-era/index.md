@@ -56,8 +56,6 @@ This is not yet a proposal for Kusama to buy a place on JAM Prime. Resource need
 
 Kusama’s central JAM-era question is not whether it should preserve every element of its present infrastructure. It is **which infrastructure arrangement can sustainably preserve Kusama as a distinct political, economic and experimental cypherpunk jurisdiction**.
 
-Read full article
-
 ## 1. Origins of Kusama
 
 Kusama was announced in July 2019 as an early, unaudited and economically real release of Polkadot: a place where governance, staking, validation and parachain-related technology could be exercised under conditions that mattered [1]. It was not a conventional testnet. KSM had value [2], operators incurred costs, governance decisions affected real assets and there was no central kill switch. At its third launch attempt Kusama’s first block followed in November 2019 [3].
