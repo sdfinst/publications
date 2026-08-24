@@ -6,9 +6,10 @@ import process from 'node:process';
 const root = process.cwd();
 const articlesRoot = path.join(root, 'content', 'articles');
 const validateOnly = process.argv.includes('--validate-only');
-const required = ['id', 'slug', 'title', 'summary', 'authors', 'published', 'updated', 'tags', 'status', 'license'];
+const required = ['id', 'slug', 'title', 'summary', 'authors', 'published', 'updated', 'tags', 'status', 'publicationType', 'edition', 'license'];
 const allowed = new Set([...required, 'canonicalUrl']);
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const editionPattern = /^(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)$/;
 
 function parseScalar(value) {
   const text = value.trim();
@@ -49,6 +50,8 @@ function assertArticle(metadata, directory, file) {
   for (const key of ['published', 'updated']) if (!/^\d{4}-\d{2}-\d{2}$/.test(metadata[key]) || Number.isNaN(Date.parse(`${metadata[key]}T00:00:00Z`))) throw new Error(`${file}: ${key} must be an ISO date`);
   if (metadata.updated < metadata.published) throw new Error(`${file}: updated cannot precede published`);
   if (!['draft', 'published'].includes(metadata.status)) throw new Error(`${file}: status must be draft or published`);
+  if (!['discussion-draft', 'position-paper', 'research-paper', 'report'].includes(metadata.publicationType)) throw new Error(`${file}: publicationType is invalid`);
+  if (!editionPattern.test(metadata.edition)) throw new Error(`${file}: edition must use semantic versioning (for example 0.1.0)`);
   if (metadata.canonicalUrl && !/^https?:\/\//.test(metadata.canonicalUrl)) throw new Error(`${file}: canonicalUrl must be an absolute HTTP(S) URL`);
 }
 
@@ -100,7 +103,8 @@ await mkdir(path.join(root, 'dist'), { recursive: true });
 await writeFile(path.join(root, 'dist', 'catalog.json'), `${JSON.stringify(catalog, null, 2)}\n`);
 const items = catalog.articles.map((article) => {
   const link = article.canonicalUrl || article.immutableUrl || article.sourcePath;
-  return `    <item>\n      <title>${xml(article.title)}</title>\n      <link>${xml(link)}</link>\n      <guid isPermaLink="false">${xml(`${article.id}@${commit}`)}</guid>\n      <description>${xml(article.summary)}</description>\n      <pubDate>${new Date(`${article.published}T00:00:00Z`).toUTCString()}</pubDate>\n    </item>`;
+  const label = `${article.publicationType.replace(/-/g, ' ')} · v${article.edition}`;
+  return `    <item>\n      <title>${xml(`${article.title} (${label})`)}</title>\n      <link>${xml(link)}</link>\n      <guid isPermaLink="false">${xml(`${article.id}@${commit}`)}</guid>\n      <description>${xml(`${article.summary} [${label}]`)}</description>\n      <pubDate>${new Date(`${article.published}T00:00:00Z`).toUTCString()}</pubDate>\n    </item>`;
 }).join('\n');
 const feedLink = repositoryUrl || 'https://example.invalid/publications';
 const rss = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>Publications</title>\n    <link>${xml(feedLink)}</link>\n    <description>Versioned long-form publications.</description>\n    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>\n${items}\n  </channel>\n</rss>\n`;

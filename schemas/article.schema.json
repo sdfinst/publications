@@ -3,7 +3,7 @@
   "title": "Publication article metadata",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "slug", "title", "summary", "authors", "published", "updated", "tags", "status", "license"],
+  "required": ["id", "slug", "title", "summary", "authors", "published", "updated", "tags", "status", "publicationType", "edition", "license"],
   "properties": {
     "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
     "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
@@ -14,6 +14,8 @@
     "updated": { "type": "string", "format": "date" },
     "tags": { "type": "array", "items": { "type": "string", "minLength": 1 } },
     "status": { "enum": ["draft", "published"] },
+    "publicationType": { "enum": ["discussion-draft", "position-paper", "research-paper", "report"] },
+    "edition": { "type": "string", "pattern": "^(?:0|[1-9][0-9]*)\\.(?:0|[1-9][0-9]*)\\.(?:0|[1-9][0-9]*)$" },
     "license": { "type": "string", "minLength": 1 },
     "canonicalUrl": { "type": "string", "format": "uri" }
   }
