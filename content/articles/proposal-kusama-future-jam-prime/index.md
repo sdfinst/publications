@@ -379,25 +379,25 @@ We propose 16 cores and 5 years as the negotiating starting point, conditional o
 
 **Appendix references.** Appendix A provides the technical basis and transition assumptions; Appendix B provides the economic benchmark, financing assumptions and counterparty analysis; Appendix C provides the illustrative WFC; Appendix D records forum feedback and the authors’ responses. References such as “C.5” identify numbered clauses of that resolution. The appendices retain their own source lists.
 
-**[1] Emiel Sebastiaan and Arief Ernst.** *Kusama Futures in the JAM Era: Five Structural Futures for KSM DAO*. Fixed publication dated 24 August 2026, commit `dece1d9091bb35c93727e40f9abfcad6bf555f6c`. Basis for the scenario comparison and the cohabitation/endowment distinction.
+**[1] [Emiel Sebastiaan and Arief Ernst](https://github.com/sdfinst/publications/blob/dece1d9091bb35c93727e40f9abfcad6bf555f6c/content/articles/kusama-futures-jam-era/index.md).** *Kusama Futures in the JAM Era: Five Structural Futures for KSM DAO*. Fixed publication dated 24 August 2026, commit `dece1d9091bb35c93727e40f9abfcad6bf555f6c`. Basis for the scenario comparison and the cohabitation/endowment distinction.
 
-**[2] Kusama OpenGov, WFC #573.** *Kusama JAM Upgrade: Option A — Lightweight and independent*. Reference for the independent 32-core, 1-second configuration. Appendix B.4’s normalised comparison leaves its actual implementation costs and performance unresolved.
+**[2] [Kusama OpenGov, WFC #573](https://kusama.subsquare.io/referenda/573).** *Kusama JAM Upgrade: Option A — Lightweight and independent*. Reference for the independent 32-core, 1-second configuration. Appendix B.4’s normalised comparison leaves its actual implementation costs and performance unresolved.
 
-**[3] Kusama OpenGov, WFC #498.** *A New Kusama Vision — 10 Million DOT from W3F & Transition Away From Being A Canary Network*. Basis for the original Web3 Foundation commitment and contemplated infrastructure support. Available funds and authorisation for repurposing require reconciliation and approval.
+**[3] [Kusama OpenGov, WFC #498](https://kusama.subsquare.io/referenda/498).** *A New Kusama Vision — 10 Million DOT from W3F & Transition Away From Being A Canary Network*. Basis for the original Web3 Foundation commitment and contemplated infrastructure support. Available funds and authorisation for repurposing require reconciliation and approval.
 
-**[4] Kusama Network.** *Kusama Vision Program*. Programme themes: Proof of Personhood, Zero Knowledge Proofs, and Art & Social Experiments.
+**[4] [Kusama Network](https://kusama.network/vision).** *Kusama Vision Program*. Programme themes: Proof of Personhood, Zero Knowledge Proofs, and Art & Social Experiments.
 
-**[5] Polkadot SDK documentation and bkchr.** *Enable elastic scaling for a parachain*, especially “Ultra low latency” and “Current limitations”; bkchr, *From 12s to 500ms — The long road to faster blocks*; and the associated *Two Fast To Block* tracking issue #6495. Reviewed 16 September 2026. The guide supplies the 12-core example; the engineering account explains block bundling and the distinction between block interval and allocated resources. The tracking issue was closed when reviewed. These references establish no validated Kusama JAM configuration or finality target.
+**[5] [Polkadot SDK documentation](https://docs.polkadot.com/polkadot-protocol/architecture/polkadot-chain/elastic-scaling/) and [bkchr](https://blog.kchr.de/from-12s-to-500ms-the-long-road-to-faster-blocks/).** *Enable elastic scaling for a parachain*, especially “Ultra low latency” and “Current limitations”; bkchr, *From 12s to 500ms — The long road to faster blocks*; and the associated [*Two Fast To Block* tracking issue #6495](https://github.com/paritytech/polkadot-sdk/issues/6495). Reviewed 16 September 2026. The guide supplies the 12-core example; the engineering account explains block bundling and the distinction between block interval and allocated resources. The tracking issue was closed when reviewed. These references establish no validated Kusama JAM configuration or finality target.
 
-**[6] Zcash Improvement Proposals, ZIP 224.** *Orchard Shielded Protocol*. Technical reference for shielded-currency investigation. The KSM and ksmUSD candidates require their own specifications and assessments.
+**[6] [Zcash Improvement Proposals, ZIP 224](https://zips.z.cash/zip-0224).** *Orchard Shielded Protocol*. Technical reference for shielded-currency investigation. The KSM and ksmUSD candidates require their own specifications and assessments.
 
-**[7] Polkadot SDK documentation.** *Cross-Consensus Message format*. Reference for shared messaging interfaces. Access and compatibility for the proposed Kusama domain require implementation and maintenance arrangements.
+**[7] [Polkadot SDK documentation](https://docs.polkadot.com/develop/interoperability/xcm/).** *Cross-Consensus Message format*. Reference for shared messaging interfaces. Access and compatibility for the proposed Kusama domain require implementation and maintenance arrangements.
 
-**[8] Polkadot Wiki.** *JAM Chain*, especially “Smart Contract Similarity” and “Service Entry Points,” reviewed 16 September 2026. Reference for services, inter-service state access and transfers. The proposed bridgeless Kusama–Polkadot interaction in §4.2 is an architectural inference conditional on cohabitation and compatible service interfaces; this reference supplies no completed integration.
+**[8] [Polkadot Wiki](https://wiki.polkadot.com/learn/learn-jam-chain/).** *JAM Chain*, especially “Smart Contract Similarity” and “Service Entry Points,” reviewed 16 September 2026. Reference for services, inter-service state access and transfers. The proposed bridgeless Kusama–Polkadot interaction in §4.2 is an architectural inference conditional on cohabitation and compatible service interfaces; this reference supplies no completed integration.
 
-**[9] SubSquare.** *Kusama Coretime Sale #32*, reviewed 16 September 2026. The displayed record showed a 1 KSM floor price, 19 renewals, 0 new purchases and approximately 23.33 KSM of renewal revenue. These are dated sale observations, not evidence of demand for the proposed multi-year package. No live KSM/USD conversion or extrapolated revenue forecast is used.
+**[9] [SubSquare](https://kusama.subsquare.io/coretime).** *Kusama Coretime Sale #32*, reviewed 16 September 2026. The displayed record showed a 1 KSM floor price, 19 renewals, 0 new purchases and approximately 23.33 KSM of renewal revenue. These are dated sale observations, not evidence of demand for the proposed multi-year package. No live KSM/USD conversion or extrapolated revenue forecast is used.
 
-**[10] Polkadot Forum.** *Kusama Futures in the JAM Era*. Public discussion reviewed 16 September 2026 through post #15. Appendix D links the individual comments, records their scope and provides the authors’ responses.
+**[10] [Polkadot Forum](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482).** *Kusama Futures in the JAM Era*. Public discussion reviewed 16 September 2026 through post #15. Appendix D links the individual comments, records their scope and provides the authors’ responses.
 
 **Basis of the proposals.** Technical quantities and dated observations retain the assumptions in Appendices A and B. The US$108,000-per-CTY comparison is constant and undiscounted. Package terms, the Future Vision Fund / Programme mandate, programme choices and transition measures are proposals advanced in this paper. Expectations about independent-JAM costs and economic security, participant prepayment and strategic differentiation are the authors’ judgements; they are not quantified findings of the appendices. The sources establish no verified all-in quotation, quantified Kusama accumulation allowance, available uncommitted funding total or counterparty acceptance. Appendix D uses a forum review dated 16 September 2026 and separately checked DOT-side referendum records. Other source-review dates and underlying inputs are retained from the supplied draft without a new independent verification in this revision.
 
@@ -619,25 +619,25 @@ A known unrestricted manager or supervisor bypass is an unresolved design gap re
 
 The fixed references, dated observations and provisional inputs below are retained from the supplied source material. Their status has not been independently refreshed for this appendix.
 
-**[A1] Emiel Sebastiaan and Arief Ernst.** *Kusama Futures in the JAM Era*, fixed commit `dece1d9091bb35c93727e40f9abfcad6bf555f6c`. Basis for the cohabitation and endowment distinction.
+**[A1] [Emiel Sebastiaan and Arief Ernst](https://github.com/sdfinst/publications/blob/dece1d9091bb35c93727e40f9abfcad6bf555f6c/content/articles/kusama-futures-jam-era/index.md).** *Kusama Futures in the JAM Era*, fixed commit `dece1d9091bb35c93727e40f9abfcad6bf555f6c`. Basis for the cohabitation and endowment distinction.
 
-**[A2] Polkadot SDK.** *Parachain Service on JAM*, PR #11883, fixed commit `c4d05e284ae962764afcd1f98599352e1a4e0a94`, 8 September 2026. Architecture and interfaces: §§2–3; upgrades and management: §§5–6; footprint accounting: §6.1; authorisation: §7. Numerical reservations are design inputs, not measurements of a Kusama deployment.
+**[A2] [Polkadot SDK](https://github.com/paritytech/polkadot-sdk/pull/11883/commits/c4d05e284ae962764afcd1f98599352e1a4e0a94).** *Parachain Service on JAM*, PR #11883, fixed commit `c4d05e284ae962764afcd1f98599352e1a4e0a94`, 8 September 2026. Architecture and interfaces: §§2–3; upgrades and management: §§5–6; footprint accounting: §6.1; authorisation: §7. Numerical reservations are design inputs, not measurements of a Kusama deployment.
 
-**[A3] Kusama OpenGov, WFC #573.** *Kusama JAM Upgrade: Option A — Lightweight and independent*. Source for the independent 32-core, 1-second reference; no cohabitation authorisation or equivalent-performance claim is inferred.
+**[A3] [Kusama OpenGov, WFC #573](https://kusama.subsquare.io/referenda/573).** *Kusama JAM Upgrade: Option A — Lightweight and independent*. Source for the independent 32-core, 1-second reference; no cohabitation authorisation or equivalent-performance claim is inferred.
 
-**[A4] Parachains.info.** *Kusama Coretime Explorer*, inventory retained 7 September 2026, using data dated 6 September at 05:17 UTC with a possible-staleness warning. The 17-parachain/41-core inventory is retained as a planning input. Future participation, utilisation and JAM equivalence require validation.
+**[A4] [Parachains.info](https://parachains.info/#/kusama/coretime).** *Kusama Coretime Explorer*, inventory retained 7 September 2026, using data dated 6 September at 05:17 UTC with a possible-staleness warning. The 17-parachain/41-core inventory is retained as a planning input. Future participation, utilisation and JAM equivalence require validation.
 
-**[A5] Gavin Wood.** *DOT DAO and the need for $JAMKB*, 22 June 2026. Basis for continuing footprint-access backing. **1 JAMKB-equivalent = 1,000 footprint credits** is this appendix’s decimal planning convention; whole-unit equivalents are rounded upward from unrounded credit subtotals.
+**[A5] [Gavin Wood](https://medium.com/polkadot-network/dot-dao-and-the-need-for-jamkb-a069e72e9728).** *DOT DAO and the need for $JAMKB*, 22 June 2026. Basis for continuing footprint-access backing. **1 JAMKB-equivalent = 1,000 footprint credits** is this appendix’s decimal planning convention; whole-unit equivalents are rounded upward from unrounded credit subtotals.
 
 **[A6] Provisional host-program input.** An unpublished statement supplied by the authors attributes an approximate 300,000-byte service-program size to Oliver Tale-Yazdi. A dated message or reproducible artefact remains outstanding. The model uses 300,000 credits per version and 3 versions; associated accounting overhead is assigned to the contingency reserve.
 
 **[A7] Oliver Tale-Yazdi.** *Westend Asset Hub Runtime: PolkaVM vs WASM Size*. The supplied build reference measures **14,565,142 bytes**, or **14,565,329 credits** with the per-parachain preimage overhead. Build workarounds and an omitted metadata hash qualify this reference. **15,000,000 credits per PVF version** remains an assumption for Kusama runtimes.
 
-**[A8] bkchr, Gray Paper PR #557.** Proposed authorizer-program size increase, fixed commit `47fba7420f9593288a8b750b2b0926fe75b8f443`. The **196,608-byte** proposal, recorded as open on 11 September 2026, informs each 200,000-credit authorizer allowance. It is a separately identified sizing proposal. 2 resident blobs and 3 retained host/PVF versions are modelling assumptions.
+**[A8] [bkchr, Gray Paper PR #557](https://github.com/gavofyork/graypaper/pull/557/commits/47fba7420f9593288a8b750b2b0926fe75b8f443).** Proposed authorizer-program size increase, fixed commit `47fba7420f9593288a8b750b2b0926fe75b8f443`. The **196,608-byte** proposal, recorded as open on 11 September 2026, informs each 200,000-credit authorizer allowance. It is a separately identified sizing proposal. 2 resident blobs and 3 retained host/PVF versions are modelling assumptions.
 
-**[A9] Gavin Wood.** *JAM Gray Paper*, released v0.8.0. Relevant provisions: authorisation and accounts, §§8–9; privilege succession and manager precedence, §12.2, equations 12.18–12.19; accumulation budget, §12.3; host calls, Appendix B.7. These mechanisms require additional logic to enforce the proposed domain and term.
+**[A9] [Gavin Wood](https://github.com/gavofyork/graypaper/releases/tag/v0.8.0).** *JAM Gray Paper*, released v0.8.0. Relevant provisions: authorisation and accounts, §§8–9; privilege succession and manager precedence, §12.2, equations 12.18–12.19; accumulation budget, §12.3; host calls, Appendix B.7. These mechanisms require additional logic to enforce the proposed domain and term.
 
-**[A10] Gavin Wood.** *JAM Gray Paper*, supplementary snapshot, commit `e5375148597a45a99d31c9aa6bce6c7bf3a48998`, 26 August 2026. Account and invocation provisions supply the later supervision semantics. Compatibility with the pinned host design remains to be established.
+**[A10] [Gavin Wood](https://github.com/gavofyork/graypaper/commit/e5375148597a45a99d31c9aa6bce6c7bf3a48998).** *JAM Gray Paper*, supplementary snapshot, commit `e5375148597a45a99d31c9aa6bce6c7bf3a48998`, 26 August 2026. Account and invocation provisions supply the later supervision semantics. Compatibility with the pinned host design remains to be established.
 
 ## Appendix B: Economic basis and financing assumptions
 
@@ -810,19 +810,19 @@ DOT DAO would commit compute, footprint and accumulation resources, accept restr
 
 **[B1] Authors’ working papers.** *The Case for a Kusama Security and Resource Endowment on JAM Prime*, version 4, 15 September 2026;
 
-**[B2] JAM technical references.** Parachain Service on JAM, fixed commit `c4d05e284ae962764afcd1f98599352e1a4e0a94`; JAM Gray Paper notation and constants, fixed commit `e5375148597a45a99d31c9aa6bce6c7bf3a48998`; and the official JAM Chain overview. Configuration and resource references retained from the supplied draft. They establish no endowment quotation or available sale inventory.
+**[B2] JAM technical references.** [Parachain Service on JAM](https://github.com/paritytech/polkadot-sdk/pull/11883/commits/c4d05e284ae962764afcd1f98599352e1a4e0a94), fixed commit `c4d05e284ae962764afcd1f98599352e1a4e0a94`; [JAM Gray Paper notation and constants](https://github.com/gavofyork/graypaper/commit/e5375148597a45a99d31c9aa6bce6c7bf3a48998), fixed commit `e5375148597a45a99d31c9aa6bce6c7bf3a48998`; and the official [JAM Chain overview](https://wiki.polkadot.com/learn/learn-jam-chain/). Configuration and resource references retained from the supplied draft. They establish no endowment quotation or available sale inventory.
 
-**[B3] Hetzner.** Price adjustment effective 15 June 2026, updated 8 July 2026 and checked 16 September 2026. AX162-1: US$722.10 per month, excluding IPv4 and VAT, with setup separate. An infrastructure price reference; the illustrative validator budget is not a quotation for a validated JAM deployment.
+**[B3] [Hetzner](https://www.hetzner.com/dedicated-rootserver/ax162/).** Price adjustment effective 15 June 2026, updated 8 July 2026 and checked 16 September 2026. AX162-1: US$722.10 per month, excluding IPv4 and VAT, with setup separate. An infrastructure price reference; the illustrative validator budget is not a quotation for a validated JAM deployment.
 
-**[B4] Kusama OpenGov, WFC #498.** A New Kusama Vision — 10 Million DOT from W3F & Transition Away From Being A Canary Network. Source for the original commitment from Web3 Foundation’s own treasury and contemplated infrastructure support. It establishes no remaining uncommitted balance or authorisation for this endowment.
+**[B4] [Kusama OpenGov, WFC #498](https://kusama.subsquare.io/referenda/498).** A New Kusama Vision — 10 Million DOT from W3F & Transition Away From Being A Canary Network. Source for the original commitment from Web3 Foundation’s own treasury and contemplated infrastructure support. It establishes no remaining uncommitted balance or authorisation for this endowment.
 
 **[B5] Historical working financing references.** The authors’ 11 September 2026 study records a doTreasury input of 883,760 KSM at an indicative US$3.65/KSM, giving US$3,225,724. These dated inputs have not been independently refreshed for version 2. US$1.00/DOT and the US$10 million ceiling are separate planning assumptions before deductions.
 
-**[B6] Programme records identified in the supplied draft.** The official Kusama Vision Programme page and SubSquare multi-asset child-bounty records. A consolidated reconciliation of expenditure, outstanding obligations and retained funding remains outstanding in the supplied material. No missing deduction is assumed to be zero.
+**[B6] Programme records identified in the supplied draft.** The official [Kusama Vision Programme page](https://kusama.network/vision) and [SubSquare multi-asset child-bounty records](https://kusama.subsquare.io/treasury/child-bounties). A consolidated reconciliation of expenditure, outstanding obligations and retained funding remains outstanding in the supplied material. No missing deduction is assumed to be zero.
 
-**[B7] Kusama OpenGov, WFC #573.** Kusama JAM Upgrade: Option A — Lightweight and independent. Source for the proposed 32-core, 1-second configuration and issuance-based security financing. The proposal’s cost and performance claims require dedicated validation; this appendix supplies a normalised comparison.
+**[B7] [Kusama OpenGov, WFC #573](https://kusama.subsquare.io/referenda/573).** Kusama JAM Upgrade: Option A — Lightweight and independent. Source for the proposed 32-core, 1-second configuration and issuance-based security financing. The proposal’s cost and performance claims require dedicated validation; this appendix supplies a normalised comparison.
 
-**[B8] Gavin Wood.** DOT DAOism under JAM: An Island Story, 27 June 2026. Source for the power-and-territory analogy, flexible capacity, infrastructure revenue, local economic development and continuity of resource rights. B.5 applies that argument to the proposed Kusama endowment; this application and its prospective benefits are the authors’ analysis.
+**[B8] [Gavin Wood](https://medium.com/polkadot-network/dot-daoism-under-jam-an-island-story-efe0d02ee084).** DOT DAOism under JAM: An Island Story, 27 June 2026. Source for the power-and-territory analogy, flexible capacity, infrastructure revenue, local economic development and continuity of resource rights. B.5 applies that argument to the proposed Kusama endowment; this application and its prospective benefits are the authors’ analysis.
 
 ## Appendix C: Template KSM DAO Wish for Change proposal
 
@@ -877,7 +877,7 @@ The comments concern the earlier Scenario Analysis. The entries below are attrib
 
 ### D.2 birdbrain | Demand-led revenue and KSM’s monetary design
 
-**Source:** Post #2, 30 August 2026.
+**Source:** [Post #2](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/2), 30 August 2026.
 
 Birdbrain identifies itself as an on-chain collective on Kreivo, participating in KreivoCollective governance. It discloses KSM holdings, purchases for membership onboarding and support for the independent direction in WFC #573.
 
@@ -885,7 +885,7 @@ The comment challenges reliance on market capitalisation, requests comparable sc
 
 ### D.3 batbayar | Footprint pricing and lease terms
 
-**Sources:** Post #3, 31 August 2026, and post #6, 3 September 2026.
+**Sources:** [Post #3](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/3), 31 August 2026, and [post #6](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/6), 3 September 2026.
 
 Batbayar writes from a DOT-side perspective and states that they submitted WFC #1927 and supported WFC #1926.
 
@@ -893,7 +893,7 @@ The comments argue that footprint must be explicitly priced and that an endowmen
 
 ### D.4 florentina57 | Purpose, builders and accountability
 
-**Sources:** Post #4, 31 August 2026; post #12, 15 September 2026; and post #15, 16 September 2026.
+**Sources:** [Post #4](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/4), 31 August 2026; [post #12](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/12), 15 September 2026; and [post #15](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/15), 16 September 2026.
 
 In the first comment, florentina57 identifies as a Kusama validator/operator and discloses an earlier Proof of Personhood bounty curatorship in the Vision Programme, from which they had decided to resign.
 
@@ -901,52 +901,52 @@ The first contribution questions whether continuing infrastructure expenditure i
 
 ### D.5 ultracoconut | Validator reductions, inflation and low fees
 
-**Sources:** Post #5, 1 September 2026, and post #14, 16 September 2026.
+**Sources:** [Post #5](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/5), 1 September 2026, and [post #14](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/14), 16 September 2026.
 
 Ultracoconut proposes halving the validator set, reducing inflation and making very low transaction fees Kusama’s main offering. The later comment renews the call for changes, questions accountability, alleges excessive validator influence and offers to help prepare a WFC.
 
 ### D.6 OliverTY | JAM multi-tenancy
 
-**Source:** Post #7, 3 September 2026.
+**Source:** [Post #7](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/7), 3 September 2026.
 
 OliverTY offers a personal view that lightweight JAM and cohabitation are promising directions. The comment emphasises that cohabitation could demonstrate JAM’s ability to support distinct tenants and encourage other projects to pursue similar arrangements.
 
 ### D.7 Rom1.io | Sovereignty, differentiation and Treasury priorities
 
-**Sources:** Post #8, 3 September 2026, and post #11, 15 September 2026.
+**Sources:** [Post #8](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/8), 3 September 2026, and [post #11](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/11), 15 September 2026.
 
 Rom1.io asks for a clear KSM DAO / DOT DAO control matrix, treatment of disagreements, exit and continuity arrangements, and concrete reasons for users and projects to choose Kusama. The later comment questions funding an audit before the network’s direction is settled.
 
 ### D.8 Pluto | Merger or consolidation
 
-**Source:** Post #10, 15 September 2026.
+**Source:** [Post #10](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/10), 15 September 2026.
 
 Pluto proposes considering merger or sunsetting Kusama’s independent layer-zero role, citing duplicated infrastructure and fragmented liquidity, development and attention. The comment asks whether experimentation warrants a separate economy and warns against preserving the network merely because it already exists.
 
 ### D.9 GabrielJ | Participation in strategy work
 
-**Source:** Post #13, 16 September 2026.
+**Source:** [Post #13](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/13), 16 September 2026.
 
 GabrielJ offers to help develop a viable strategy for Kusama and removes a proposed Matrix-room link to avoid scattering the conversation.
 
 ### D.10 RustSyndicate | Privacy and zero-knowledge applications
 
-**Source:** Post #16, 16 September 2026.
+**Source:** [Post #16](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/16), 16 September 2026.
 
 RustSyndicate identifies as a Kusama Asset Hub Ethereum RPC operator and advocates privacy, censorship resistance and resilient smart-contract execution. The comment cites ZK developer interest, Vision Programme work with zk-email on Noir, and shield.markets as examples supporting this direction.
 
 ### D.11 edvoki | Consolidation and a wider multi-tenant JAM
 
-**Source:** Post #17, 16 September 2026.
+**Source:** [Post #17](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/17), 16 September 2026.
 
 Edvoki favours option 2, citing operator costs, limited activity and Vision Programme accountability concerns. The comment suggests demonstrating JAM’s multi-tenancy through projects such as Hydration, Bifrost, peaq and potentially DarkFi, rather than preserving Kusama principally for that demonstration.
 
 ### D.12 pinco-labs | An independent canary for JAM
 
-**Source:** Post #18, 16 September 2026.
+**Source:** [Post #18](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482/18), 16 September 2026.
 
 Pinco-labs asks who would test potentially damaging JAM upgrades before Polkadot adopts them. The comment argues that Polkadot should help sustain independent Kusama infrastructure where it relies on Kusama for real-world canary testing.
 
 ### Source and review basis
 
-**[D1] Polkadot Forum.** *Kusama Futures in the JAM Era*. Reviewed **17 September 2026** through **post #18**. The entries link to the individual comments. Coverage is limited to this public thread.
+**[D1] [Polkadot Forum](https://forum.polkadot.network/t/kusama-futures-in-the-jam-era/18482).** *Kusama Futures in the JAM Era*. Reviewed **17 September 2026** through **post #18**. The entries link to the individual comments. Coverage is limited to this public thread.
