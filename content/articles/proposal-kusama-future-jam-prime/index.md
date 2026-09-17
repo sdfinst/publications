@@ -21,7 +21,7 @@ license: CC-BY-4.0
 ---
 # A Proposal for a Kusama Future on JAM Prime
 
-**A position paper on finite resources, strategic choices and Kusama’s next offering**
+**A position paper proposing a finite, protected Kusama resource endowment on JAM Prime and a funded programme for Kusama’s next era.**
 
 *17 September 2026 by Emiel Sebastiaan and Arief Ernst on behalf of SDFI BV.*
 
