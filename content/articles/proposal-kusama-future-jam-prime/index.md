@@ -637,7 +637,7 @@ The fixed references, dated observations and provisional inputs below are retain
 
 **[A9] [Gavin Wood](https://github.com/gavofyork/graypaper/releases/tag/v0.8.0).** *JAM Gray Paper*, released v0.8.0. Relevant provisions: authorisation and accounts, §§8–9; privilege succession and manager precedence, §12.2, equations 12.18–12.19; accumulation budget, §12.3; host calls, Appendix B.7. These mechanisms require additional logic to enforce the proposed domain and term.
 
-**[A10] [Gavin Wood](https://github.com/gavofyork/graypaper/commit/e5375148597a45a99d31c9aa6bce6c7bf3a48998).** *JAM Gray Paper*, supplementary snapshot, commit `e5375148597a45a99d31c9aa6bce6c7bf3a48998`, 26 August 2026. Account and invocation provisions supply the later supervision semantics. Compatibility with the pinned host design remains to be established.
+**[A10] [Gavin Wood](https://github.com/gavofyork/graypaper/issues/529) [Gavin Wood](https://github.com/gavofyork/graypaper/pull/539).** *JAM Gray Paper*, supplementary snapshot, commit `e5375148597a45a99d31c9aa6bce6c7bf3a48998`, 26 August 2026. Account and invocation provisions supply the later supervision semantics. Compatibility with the pinned host design remains to be established.
 
 ## Appendix B: Economic basis and financing assumptions
 
