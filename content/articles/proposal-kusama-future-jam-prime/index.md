@@ -23,7 +23,7 @@ license: CC-BY-4.0
 
 **A position paper proposing a finite, protected Kusama resource endowment on JAM Prime and a funded programme for Kusama’s next era.**
 
-*17 September 2026 by Emiel Sebastiaan and Arief Ernst on behalf of SDFI BV.*
+*17 September 2026 by Emiel Sebastiaan and Arief Ernst on behalf of [SDFI BV](https://sdf.institute).*
 
 **Status and purpose.** This paper follows *Kusama Futures in the JAM Era*. It proposes a negotiating direction for community discussion, supported by the technical requirements in Appendix A, the economic analysis in Appendix B and a template Wish for Change resolution in Appendix C. Appendix D records community feedback. Funding, implementation and migration require separate approvals from the relevant governance bodies and resource owners.
 
