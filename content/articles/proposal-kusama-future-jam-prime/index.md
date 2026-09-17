@@ -810,7 +810,7 @@ DOT DAO would commit compute, footprint and accumulation resources, accept restr
 
 **[B1] Authors’ working papers.** *The Case for a Kusama Security and Resource Endowment on JAM Prime*, version 4, 15 September 2026;
 
-**[B2] JAM technical references.** [Parachain Service on JAM](https://github.com/paritytech/polkadot-sdk/pull/11883/commits/c4d05e284ae962764afcd1f98599352e1a4e0a94), fixed commit `c4d05e284ae962764afcd1f98599352e1a4e0a94`; [JAM Gray Paper notation and constants](https://github.com/gavofyork/graypaper/commit/e5375148597a45a99d31c9aa6bce6c7bf3a48998), fixed commit `e5375148597a45a99d31c9aa6bce6c7bf3a48998`; and the official [JAM Chain overview](https://wiki.polkadot.com/learn/learn-jam-chain/). Configuration and resource references retained from the supplied draft. They establish no endowment quotation or available sale inventory.
+**[B2] JAM technical references.** [Parachain Service on JAM](https://github.com/paritytech/polkadot-sdk/pull/11883/commits/c4d05e284ae962764afcd1f98599352e1a4e0a94), fixed commit `c4d05e284ae962764afcd1f98599352e1a4e0a94`; and the official [JAM Chain overview](https://wiki.polkadot.com/learn/learn-jam-chain/). Configuration and resource references retained from the supplied draft. They establish no endowment quotation or available sale inventory.
 
 **[B3] [Hetzner](https://www.hetzner.com/dedicated-rootserver/ax162/).** Price adjustment effective 15 June 2026, updated 8 July 2026 and checked 16 September 2026. AX162-1: US$722.10 per month, excluding IPv4 and VAT, with setup separate. An infrastructure price reference; the illustrative validator budget is not a quotation for a validated JAM deployment.
 
