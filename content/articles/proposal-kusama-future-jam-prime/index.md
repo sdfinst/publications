@@ -391,7 +391,7 @@ We propose 16 cores and 5 years as the negotiating starting point, conditional o
 
 **[6] [Zcash Improvement Proposals, ZIP 224](https://zips.z.cash/zip-0224).** *Orchard Shielded Protocol*. Technical reference for shielded-currency investigation. The KSM and ksmUSD candidates require their own specifications and assessments.
 
-**[7] [Polkadot SDK documentation](https://docs.polkadot.com/develop/interoperability/xcm/).** *Cross-Consensus Message format*. Reference for shared messaging interfaces. Access and compatibility for the proposed Kusama domain require implementation and maintenance arrangements.
+**[7] [Polkadot SDK documentation](https://wiki.polkadot.com/learn/learn-xcm/).** *Cross-Consensus Message format*. Reference for shared messaging interfaces. Access and compatibility for the proposed Kusama domain require implementation and maintenance arrangements.
 
 **[8] [Polkadot Wiki](https://wiki.polkadot.com/learn/learn-jam-chain/).** *JAM Chain*, especially “Smart Contract Similarity” and “Service Entry Points,” reviewed 16 September 2026. Reference for services, inter-service state access and transfers. The proposed bridgeless Kusama–Polkadot interaction in §4.2 is an architectural inference conditional on cohabitation and compatible service interfaces; this reference supplies no completed integration.
 
