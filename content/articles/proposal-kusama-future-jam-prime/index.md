@@ -808,7 +808,7 @@ DOT DAO would commit compute, footprint and accumulation resources, accept restr
 
 ### Sources and assumptions
 
-**[B1] Authors’ working papers.** *The Case for a Kusama Security and Resource Endowment on JAM Prime*, version 4, 15 September 2026;
+**[B1] [Emiel Sebastiaan and Arief Ernst](https://github.com/sdfinst/publications/blob/dece1d9091bb35c93727e40f9abfcad6bf555f6c/content/articles/kusama-futures-jam-era/index.md).** *Kusama Futures in the JAM Era*, fixed commit `dece1d9091bb35c93727e40f9abfcad6bf555f6c`. Basis for the cohabitation and endowment distinction.
 
 **[B2] JAM technical references.** [Parachain Service on JAM](https://github.com/paritytech/polkadot-sdk/blob/c4d05e284ae962764afcd1f98599352e1a4e0a94/designs/parachain-service-on-jam/parachain-service-on-jam.md), fixed commit `c4d05e284ae962764afcd1f98599352e1a4e0a94`; and the official [JAM Chain overview](https://wiki.polkadot.com/learn/learn-jam-chain/). Configuration and resource references retained from the supplied draft. They establish no endowment quotation or available sale inventory.
 
