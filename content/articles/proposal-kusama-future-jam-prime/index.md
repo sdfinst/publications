@@ -207,7 +207,7 @@ Our proposed principal settlement source is an **authorised contribution from re
 
 `Potential Vision contribution = 10,000,000 DOT − prior expenditure − outstanding obligations − retained programme funding`
 
-Appendix B.3’s **US$10 million** values the original allocation at an assumed US$1.00/DOT before deductions. It is an illustrative comparison, not an available budget. At that rate, a US$8.64 million settlement would leave **1.36 million DOT of the original commitment** for all prior expenditure, outstanding obligations and retained programme funding. Missing deductions cannot be assumed to be zero.
+Appendix B.3 uses an assumed US$1.00/DOT to illustrate the scale of the original allocation before deductions. This provides a reference for comparing possible resource packages; it does not establish an available budget. Prior expenditure, outstanding obligations and funding retained for the Vision Programme must first be reconciled before the contribution available for a JAM Prime settlement can be determined.
 
 Kusama Treasury resources could support the Future Vision Fund / Programme. Their available portion also requires reconciliation. New issuance would need explicit authorisation, a defined purpose and treatment within the monetary design. (Appendices B.3; C.6.)
 
