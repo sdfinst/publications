@@ -50,7 +50,7 @@ function assertArticle(metadata, directory, file) {
   for (const key of ['published', 'updated']) if (!/^\d{4}-\d{2}-\d{2}$/.test(metadata[key]) || Number.isNaN(Date.parse(`${metadata[key]}T00:00:00Z`))) throw new Error(`${file}: ${key} must be an ISO date`);
   if (metadata.updated < metadata.published) throw new Error(`${file}: updated cannot precede published`);
   if (!['draft', 'published'].includes(metadata.status)) throw new Error(`${file}: status must be draft or published`);
-  if (!['discussion-draft', 'position-paper', 'research-paper', 'report'].includes(metadata.publicationType)) throw new Error(`${file}: publicationType is invalid`);
+  if (!['discussion-draft', 'position-paper', 'decision-paper', 'research-paper', 'report'].includes(metadata.publicationType)) throw new Error(`${file}: publicationType is invalid`);
   if (!editionPattern.test(metadata.edition)) throw new Error(`${file}: edition must use semantic versioning (for example 0.1.0)`);
   if (metadata.canonicalUrl && !/^https?:\/\//.test(metadata.canonicalUrl)) throw new Error(`${file}: canonicalUrl must be an absolute HTTP(S) URL`);
 }
