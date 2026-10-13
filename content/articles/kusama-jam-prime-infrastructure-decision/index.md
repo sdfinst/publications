@@ -238,7 +238,7 @@ The selected proposal would supersede #573’s independent lightweight JAM direc
 
 ### 6.2 A coordinated governance decision
 
-Appendix A provides 4 self-contained resolutions with resource tables, 8 numbered clauses and an explanation of approval’s effect. Each includes its pricing and selection rules in full. The selected proposal establishes the mandate under those rules. Appendix B provides the corresponding Polkadot acceptance resolution.
+Appendix A provides four self-contained resolutions with resource tables, eight numbered clauses and an explanation of approval’s effect. Each includes its pricing and selection rules in full. The selected proposal establishes the mandate under those rules. Appendix B provides the corresponding Polkadot acceptance resolution.
 
 Voters may support every acceptable proposal. After all four close, the passing proposal with the greatest final conviction-weighted AYE tally is selected. One passing proposal becomes the selection; none means no new mandate. An exact tie requires a further decision among the tied originals. Clause 8 of each resolution addresses interrupted rounds and unverifiable results.
 
@@ -289,6 +289,194 @@ The authors ask KSM DAO to select one infrastructure Wish-for-Change proposal fo
 The selected original referendum’s approval date fixes the DOT offer from the US$4,320,000 reference and preceding 90-day average, within 5,000,000 DOT. W3F can support the vote or remain neutral through the proposed abstention route.
 
 The authors advocate cohabitation and remain neutral among these four infrastructure WFC proposals. The infrastructure decision requires sufficient strategic clarity to choose the capacity and runway that Kusama needs. Infrastructure selection and strategy development should advance together, turning JAM’s opportunities into a funded offering within an agreed resource estate and protected operating term.
+
+## Appendix A. Four infrastructure Wish-for-Change proposals
+
+*Proposed referendum wording. The authors advocate cohabitation on JAM Prime and remain neutral among the four proposals. Each resolution contains its complete financial and selection rules.*
+
+### A.1 Infrastructure Wish-for-Change proposal 1 (16 cores for 2.5 years)
+
+The 7-core planning baseline retains 5 system parachains, leaving up to 9 cores for other workloads. This proposal combines the greatest immediate capacity with the earliest renewal decision. Continuation work must begin within the 2.5-year term.
+
+**Proposed resolution**
+
+Subject to selection by the rules in this resolution, Kusama’s token-holder governance (KSM DAO) supports a complete security and resource endowment on **JAM Prime** comprising **16 cores for 2.5 years**, totaling **40 coretime-years (CTYs)**, on these terms.
+
+**1. Infrastructure direction.** KSM DAO pursues a protected Kusama-controlled service jurisdiction on JAM Prime, superseding WFC #573’s independent lightweight JAM direction upon selection (https://kusama.subsquare.io/referenda/573). Kusama’s community and the Kusama Vision programme retain responsibility for its mission and strategy.
+
+**2. Specified resource package.** The allocation includes all Kusama workloads supported within this complete package.
+
+| Resource or term | Requirement |
+| --- | --- |
+| Compute | 16 full cores reserved throughout the term; 40 CTYs. |
+| Protected term | 2.5 years from verified operational availability of the complete package. |
+| Footprint | Fellowship-assessed actual requirements within a **450,000 JAMKB-equivalent planning ceiling**. |
+| Always-accumulate resources | Protected always-accumulate registration and a sufficient quantified minimum allowance, assessed by the Fellowship. |
+| Control | Protected KSM authority throughout the term. |
+| Stewardship | Accepted, Fellowship-led implementation and maintenance. |
+| Consideration | Fixed DOT amount under clause 5 for the complete package. |
+
+**3. Protected KSM control.** KSM governance retains authority over service upgrades, internal governance, monetary policy, authorizers and internal resource assignment. The implemented boundary must prevent ordinary unilateral revocation, reassignment or material impairment through manager and other host administrative powers. Protection covers compute, effective footprint backing, always-accumulate resources and KSM authority through host upgrades throughout the term.
+
+**4. Fellowship mandate and continued alignment.** KSM DAO delegates technical assessment, architecture, implementation, migration and maintenance to the Polkadot Fellowship under an accepted mandate. Necessary ceiling revisions return to KSM governance. The mandate preserves Kusama–Polkadot alignment through shared technologies, primitives, standards and interfaces.
+
+**5. Complete-package consideration and DOT pricing.** The entire package’s reference is **US$4,320,000 = 40 CTYs × US$108,000 per CTY**, capped at **5,000,000 DOT**. **D** is the UTC calendar date of the finalized block recording this individual Kusama referendum’s approval. **P90(D)** is the arithmetic mean of CoinGecko’s **00:00 UTC USD price snapshots for 1 DOT**, asset identifier **polkadot**, for all 90 completed UTC days **D−90 through D−1**, inclusive.
+
+**Fixed DOT consideration = US$4,320,000 ÷ P90(D), rounded upward to the smallest transferable DOT unit.**
+
+The original approval date survives result certification, tie-breaking, DOT DAO voting and settlement. Its calculation fixes the complete-package offer. Once accepted by DOT DAO, that DOT amount remains unchanged despite market movements; future USD value remains variable. A result above 5,000,000 DOT requires revised governance authority.
+
+**6. Kusama Vision fund and Kusama Vision programme.** The contribution uses eligible Kusama Vision fund resources, amending WFC #498 while preserving the Kusama Vision programme and existing commitments (https://kusama.subsquare.io/referenda/498). Expenditure and outstanding obligations are reconciled; the remainder supports development.
+
+Under the proposed arrangement, Web3 Foundation (W3F) may confirm the eligible contribution through a support vote or conscious neutral abstention recorded for this round, allowing other KSM holders to decide. Ordinary nonparticipation does not confirm funding.
+
+**7. Consequences for Kusama.** The independent validator set, staking system and associated staking issuance and rewards retire with the completed transition. Further monetary design requires KSM decisions; deflation remains possible. KSM governance retains offering decisions and treatment of existing commitments. Kusama coretime sales require timely downward adjustment to the selected allocation. Affected parachain teams seeking continued hosting beyond that allocation should prepare migration to Polkadot. They may request a Kusama Treasury transition budget through a separate KSM funding decision.
+
+**8. Selection and bilateral acceptance.** Voters may support every acceptable proposal. Each must independently satisfy approval and support thresholds. After all four close through approval or rejection, the passing proposal with the greatest exact final conviction-weighted AYE tally is selected. Early approval fixes its tally and pricing date while selection awaits the remaining outcomes.
+
+Cancellation, killing or timeout requires a fresh governance decision for the incomplete round. Unverifiable tallies leave selection unresolved. No passing proposal means no mandate. Exact ties among the highest passing tallies require a further decision among those original approved proposals, preserving the winner’s original approval date.
+
+Only the winner advances to Polkadot’s token-holder governance (DOT DAO) for acceptance of the complete package and fixed consideration: **One mandate and one contribution**.
+
+**Effect of this vote.** Approval establishes a political direction, financial rule and requested technical mandate, conditional on selection. Resource allocation, payment and technical changes require authorized implementation actions; the WFC itself transfers no funds and grants no technical privileges.
+
+### A.2 Infrastructure Wish-for-Change proposal 2 (8 cores for 5 years)
+
+The 7-core planning baseline retains 5 system parachains, leaving up to 1 core for other workloads or reserves. This proposal provides 5 years of protected infrastructure while requiring a substantially smaller non-system parachain offering and disciplined internal allocation.
+
+**Proposed resolution**
+
+Subject to selection by the rules in this resolution, Kusama’s token-holder governance (KSM DAO) supports a complete security and resource endowment on **JAM Prime** comprising **8 cores for 5 years**, totaling **40 coretime-years (CTYs)**, on these terms.
+
+**1. Infrastructure direction.** KSM DAO pursues a protected Kusama-controlled service jurisdiction on JAM Prime, superseding WFC #573’s independent lightweight JAM direction upon selection (https://kusama.subsquare.io/referenda/573). Kusama’s community and the Kusama Vision programme retain responsibility for its mission and strategy.
+
+**2. Specified resource package.** The allocation includes all Kusama workloads supported within this complete package.
+
+| Resource or term | Requirement |
+| --- | --- |
+| Compute | 8 full cores reserved throughout the term; 40 CTYs. |
+| Protected term | 5 years from verified operational availability of the complete package. |
+| Footprint | Fellowship-assessed actual requirements within a **350,000 JAMKB-equivalent planning ceiling**. |
+| Always-accumulate resources | Protected always-accumulate registration and a sufficient quantified minimum allowance, assessed by the Fellowship. |
+| Control | Protected KSM authority throughout the term. |
+| Stewardship | Accepted, Fellowship-led implementation and maintenance. |
+| Consideration | Fixed DOT amount under clause 5 for the complete package. |
+
+**3. Protected KSM control.** KSM governance retains authority over service upgrades, internal governance, monetary policy, authorizers and internal resource assignment. The implemented boundary must prevent ordinary unilateral revocation, reassignment or material impairment through manager and other host administrative powers. Protection covers compute, effective footprint backing, always-accumulate resources and KSM authority through host upgrades throughout the term.
+
+**4. Fellowship mandate and continued alignment.** KSM DAO delegates technical assessment, architecture, implementation, migration and maintenance to the Polkadot Fellowship under an accepted mandate. Necessary ceiling revisions return to KSM governance. The mandate preserves Kusama–Polkadot alignment through shared technologies, primitives, standards and interfaces.
+
+**5. Complete-package consideration and DOT pricing.** The entire package’s reference is **US$4,320,000 = 40 CTYs × US$108,000 per CTY**, capped at **5,000,000 DOT**. **D** is the UTC calendar date of the finalized block recording this individual Kusama referendum’s approval. **P90(D)** is the arithmetic mean of CoinGecko’s **00:00 UTC USD price snapshots for 1 DOT**, asset identifier **polkadot**, for all 90 completed UTC days **D−90 through D−1**, inclusive.
+
+**Fixed DOT consideration = US$4,320,000 ÷ P90(D), rounded upward to the smallest transferable DOT unit.**
+
+The original approval date survives result certification, tie-breaking, DOT DAO voting and settlement. Its calculation fixes the complete-package offer. Once accepted by DOT DAO, that DOT amount remains unchanged despite market movements; future USD value remains variable. A result above 5,000,000 DOT requires revised governance authority.
+
+**6. Kusama Vision fund and Kusama Vision programme.** The contribution uses eligible Kusama Vision fund resources, amending WFC #498 while preserving the Kusama Vision programme and existing commitments (https://kusama.subsquare.io/referenda/498). Expenditure and outstanding obligations are reconciled; the remainder supports development.
+
+Under the proposed arrangement, Web3 Foundation (W3F) may confirm the eligible contribution through a support vote or conscious neutral abstention recorded for this round, allowing other KSM holders to decide. Ordinary nonparticipation does not confirm funding.
+
+**7. Consequences for Kusama.** The independent validator set, staking system and associated staking issuance and rewards retire with the completed transition. Further monetary design requires KSM decisions; deflation remains possible. KSM governance retains offering decisions and treatment of existing commitments. Kusama coretime sales require timely downward adjustment to the selected allocation. Affected parachain teams seeking continued hosting beyond that allocation should prepare migration to Polkadot. They may request a Kusama Treasury transition budget through a separate KSM funding decision.
+
+**8. Selection and bilateral acceptance.** Voters may support every acceptable proposal. Each must independently satisfy approval and support thresholds. After all four close through approval or rejection, the passing proposal with the greatest exact final conviction-weighted AYE tally is selected. Early approval fixes its tally and pricing date while selection awaits the remaining outcomes.
+
+Cancellation, killing or timeout requires a fresh governance decision for the incomplete round. Unverifiable tallies leave selection unresolved. No passing proposal means no mandate. Exact ties among the highest passing tallies require a further decision among those original approved proposals, preserving the winner’s original approval date.
+
+Only the winner advances to Polkadot’s token-holder governance (DOT DAO) for acceptance of the complete package and fixed consideration: **One mandate and one contribution**.
+
+**Effect of this vote.** Approval establishes a political direction, financial rule and requested technical mandate, conditional on selection. Resource allocation, payment and technical changes require authorized implementation actions; the WFC itself transfers no funds and grants no technical privileges.
+
+### A.3 Infrastructure Wish-for-Change proposal 3 (4 cores for 10 years)
+
+This proposal provides 10 years for a reduced or consolidated offering. Operation within 4 cores requires adapting the 7-core system baseline. Fellowship assessment must establish resource sufficiency; KSM governance decides which functions Kusama will retain, consolidate or discontinue.
+
+**Proposed resolution**
+
+Subject to selection by the rules in this resolution, Kusama’s token-holder governance (KSM DAO) supports a complete security and resource endowment on **JAM Prime** comprising **4 cores for 10 years**, totaling **40 coretime-years (CTYs)**, on these terms.
+
+**1. Infrastructure direction.** KSM DAO pursues a protected Kusama-controlled service jurisdiction on JAM Prime, superseding WFC #573’s independent lightweight JAM direction upon selection (https://kusama.subsquare.io/referenda/573). Kusama’s community and the Kusama Vision programme retain responsibility for its mission and strategy.
+
+**2. Specified resource package.** The allocation includes all Kusama workloads supported within this complete package.
+
+| Resource or term | Requirement |
+| --- | --- |
+| Compute | 4 full cores reserved throughout the term; 40 CTYs. |
+| Protected term | 10 years from verified operational availability of the complete package. |
+| Footprint | Fellowship-assessed actual requirements within a **250,000 JAMKB-equivalent planning ceiling**. |
+| Always-accumulate resources | Protected always-accumulate registration and a sufficient quantified minimum allowance, assessed by the Fellowship. |
+| Control | Protected KSM authority throughout the term. |
+| Stewardship | Accepted, Fellowship-led implementation and maintenance. |
+| Consideration | Fixed DOT amount under clause 5 for the complete package. |
+
+**3. Protected KSM control.** KSM governance retains authority over service upgrades, internal governance, monetary policy, authorizers and internal resource assignment. The implemented boundary must prevent ordinary unilateral revocation, reassignment or material impairment through manager and other host administrative powers. Protection covers compute, effective footprint backing, always-accumulate resources and KSM authority through host upgrades throughout the term.
+
+**4. Fellowship mandate and continued alignment.** KSM DAO delegates technical assessment, architecture, implementation, migration and maintenance to the Polkadot Fellowship under an accepted mandate. Necessary ceiling revisions return to KSM governance. The mandate preserves Kusama–Polkadot alignment through shared technologies, primitives, standards and interfaces.
+
+**5. Complete-package consideration and DOT pricing.** The entire package’s reference is **US$4,320,000 = 40 CTYs × US$108,000 per CTY**, capped at **5,000,000 DOT**. **D** is the UTC calendar date of the finalized block recording this individual Kusama referendum’s approval. **P90(D)** is the arithmetic mean of CoinGecko’s **00:00 UTC USD price snapshots for 1 DOT**, asset identifier **polkadot**, for all 90 completed UTC days **D−90 through D−1**, inclusive.
+
+**Fixed DOT consideration = US$4,320,000 ÷ P90(D), rounded upward to the smallest transferable DOT unit.**
+
+The original approval date survives result certification, tie-breaking, DOT DAO voting and settlement. Its calculation fixes the complete-package offer. Once accepted by DOT DAO, that DOT amount remains unchanged despite market movements; future USD value remains variable. A result above 5,000,000 DOT requires revised governance authority.
+
+**6. Kusama Vision fund and Kusama Vision programme.** The contribution uses eligible Kusama Vision fund resources, amending WFC #498 while preserving the Kusama Vision programme and existing commitments (https://kusama.subsquare.io/referenda/498). Expenditure and outstanding obligations are reconciled; the remainder supports development.
+
+Under the proposed arrangement, Web3 Foundation (W3F) may confirm the eligible contribution through a support vote or conscious neutral abstention recorded for this round, allowing other KSM holders to decide. Ordinary nonparticipation does not confirm funding.
+
+**7. Consequences for Kusama.** The independent validator set, staking system and associated staking issuance and rewards retire with the completed transition. Further monetary design requires KSM decisions; deflation remains possible. KSM governance retains offering decisions and treatment of existing commitments. Kusama coretime sales require timely downward adjustment to the selected allocation. Affected parachain teams seeking continued hosting beyond that allocation should prepare migration to Polkadot. They may request a Kusama Treasury transition budget through a separate KSM funding decision.
+
+**8. Selection and bilateral acceptance.** Voters may support every acceptable proposal. Each must independently satisfy approval and support thresholds. After all four close through approval or rejection, the passing proposal with the greatest exact final conviction-weighted AYE tally is selected. Early approval fixes its tally and pricing date while selection awaits the remaining outcomes.
+
+Cancellation, killing or timeout requires a fresh governance decision for the incomplete round. Unverifiable tallies leave selection unresolved. No passing proposal means no mandate. Exact ties among the highest passing tallies require a further decision among those original approved proposals, preserving the winner’s original approval date.
+
+Only the winner advances to Polkadot’s token-holder governance (DOT DAO) for acceptance of the complete package and fixed consideration: **One mandate and one contribution**.
+
+**Effect of this vote.** Approval establishes a political direction, financial rule and requested technical mandate, conditional on selection. Resource allocation, payment and technical changes require authorized implementation actions; the WFC itself transfers no funds and grants no technical privileges.
+
+### A.4 Infrastructure Wish-for-Change proposal 4 (2 cores for 20 years)
+
+This proposal provides 20 years for a substantially smaller offering. KSM governance determines essential functions within 2 cores with Fellowship advice. The term requires continuity of the agreed resources, protected control and maintenance through technical changes.
+
+**Proposed resolution**
+
+Subject to selection by the rules in this resolution, Kusama’s token-holder governance (KSM DAO) supports a complete security and resource endowment on **JAM Prime** comprising **2 cores for 20 years**, totaling **40 coretime-years (CTYs)**, on these terms.
+
+**1. Infrastructure direction.** KSM DAO pursues a protected Kusama-controlled service jurisdiction on JAM Prime, superseding WFC #573’s independent lightweight JAM direction upon selection (https://kusama.subsquare.io/referenda/573). Kusama’s community and the Kusama Vision programme retain responsibility for its mission and strategy.
+
+**2. Specified resource package.** The allocation includes all Kusama workloads supported within this complete package.
+
+| Resource or term | Requirement |
+| --- | --- |
+| Compute | 2 full cores reserved throughout the term; 40 CTYs. |
+| Protected term | 20 years from verified operational availability of the complete package. |
+| Footprint | Fellowship-assessed actual requirements within a **250,000 JAMKB-equivalent planning ceiling**. |
+| Always-accumulate resources | Protected always-accumulate registration and a sufficient quantified minimum allowance, assessed by the Fellowship. |
+| Control | Protected KSM authority throughout the term. |
+| Stewardship | Accepted, Fellowship-led implementation and maintenance. |
+| Consideration | Fixed DOT amount under clause 5 for the complete package. |
+
+**3. Protected KSM control.** KSM governance retains authority over service upgrades, internal governance, monetary policy, authorizers and internal resource assignment. The implemented boundary must prevent ordinary unilateral revocation, reassignment or material impairment through manager and other host administrative powers. Protection covers compute, effective footprint backing, always-accumulate resources and KSM authority through host upgrades throughout the term.
+
+**4. Fellowship mandate and continued alignment.** KSM DAO delegates technical assessment, architecture, implementation, migration and maintenance to the Polkadot Fellowship under an accepted mandate. Necessary ceiling revisions return to KSM governance. The mandate preserves Kusama–Polkadot alignment through shared technologies, primitives, standards and interfaces.
+
+**5. Complete-package consideration and DOT pricing.** The entire package’s reference is **US$4,320,000 = 40 CTYs × US$108,000 per CTY**, capped at **5,000,000 DOT**. **D** is the UTC calendar date of the finalized block recording this individual Kusama referendum’s approval. **P90(D)** is the arithmetic mean of CoinGecko’s **00:00 UTC USD price snapshots for 1 DOT**, asset identifier **polkadot**, for all 90 completed UTC days **D−90 through D−1**, inclusive.
+
+**Fixed DOT consideration = US$4,320,000 ÷ P90(D), rounded upward to the smallest transferable DOT unit.**
+
+The original approval date survives result certification, tie-breaking, DOT DAO voting and settlement. Its calculation fixes the complete-package offer. Once accepted by DOT DAO, that DOT amount remains unchanged despite market movements; future USD value remains variable. A result above 5,000,000 DOT requires revised governance authority.
+
+**6. Kusama Vision fund and Kusama Vision programme.** The contribution uses eligible Kusama Vision fund resources, amending WFC #498 while preserving the Kusama Vision programme and existing commitments (https://kusama.subsquare.io/referenda/498). Expenditure and outstanding obligations are reconciled; the remainder supports development.
+
+Under the proposed arrangement, Web3 Foundation (W3F) may confirm the eligible contribution through a support vote or conscious neutral abstention recorded for this round, allowing other KSM holders to decide. Ordinary nonparticipation does not confirm funding.
+
+**7. Consequences for Kusama.** The independent validator set, staking system and associated staking issuance and rewards retire with the completed transition. Further monetary design requires KSM decisions; deflation remains possible. KSM governance retains offering decisions and treatment of existing commitments. Kusama coretime sales require timely downward adjustment to the selected allocation. Affected parachain teams seeking continued hosting beyond that allocation should prepare migration to Polkadot. They may request a Kusama Treasury transition budget through a separate KSM funding decision.
+
+**8. Selection and bilateral acceptance.** Voters may support every acceptable proposal. Each must independently satisfy approval and support thresholds. After all four close through approval or rejection, the passing proposal with the greatest exact final conviction-weighted AYE tally is selected. Early approval fixes its tally and pricing date while selection awaits the remaining outcomes.
+
+Cancellation, killing or timeout requires a fresh governance decision for the incomplete round. Unverifiable tallies leave selection unresolved. No passing proposal means no mandate. Exact ties among the highest passing tallies require a further decision among those original approved proposals, preserving the winner’s original approval date.
+
+Only the winner advances to Polkadot’s token-holder governance (DOT DAO) for acceptance of the complete package and fixed consideration: **One mandate and one contribution**.
+
+**Effect of this vote.** Approval establishes a political direction, financial rule and requested technical mandate, conditional on selection. Resource allocation, payment and technical changes require authorized implementation actions; the WFC itself transfers no funds and grants no technical privileges.
 
 ## Appendix B. Corresponding Polkadot infrastructure Wish-for-Change proposal
 
