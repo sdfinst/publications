@@ -1,7 +1,7 @@
 ---
 id: kusama-jam-prime-infrastructure-decision
 slug: kusama-jam-prime-infrastructure-decision
-title: Kusama on JAM Prime: The Infrastructure Decision
+title: Kusama on JAM Prime - The Infrastructure Decision
 summary: A decision paper on four infrastructure Wish-for-Change proposals and Kusama’s operating runway.
 authors:
   - Emiel Sebastiaan
