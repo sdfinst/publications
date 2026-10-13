@@ -6,8 +6,8 @@ summary: A decision paper on four infrastructure Wish-for-Change proposals and K
 authors:
   - Emiel Sebastiaan
   - Arief Ernst
-published: 2026-10-13
-updated: 2026-10-13
+published: 2026-10-16
+updated: 2026-10-16
 tags:
   - kusama
   - polkadot
@@ -15,15 +15,15 @@ tags:
   - governance
   - tokenomics
 status: published
-publicationType: position-paper
+publicationType: decision-paper
 edition: 0.1.0
 license: CC-BY-4.0
 ---
 # Kusama on JAM Prime: The Infrastructure Decision
 
-*A decision paper on four infrastructure Wish-for-Change proposals and Kusama’s operating runway.*
+**A decision paper on four infrastructure Wish-for-Change proposals and Kusama’s operating runway.**
 
-13 October 2026 by Emiel Sebastiaan and Arief Ernst on behalf of SDFI BV.
+16 October 2026 by Emiel Sebastiaan and Arief Ernst on behalf of [SDFI BV](https://sdf.institute).
 
 **Status and purpose.** This decision paper follows *Kusama Futures in the JAM Era* [1] and *A Proposal for a Kusama Future on JAM Prime* [2]. It presents four concrete infrastructure Wish-for-Change proposals through which KSM DAO can select a complete security and resource endowment on JAM Prime. The selected proposal would establish Kusama’s political and financial mandate for agreement with DOT DAO, supported by an eligible Kusama Vision fund contribution and a Fellowship-led technical mandate.
 
