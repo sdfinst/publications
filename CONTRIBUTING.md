@@ -23,7 +23,7 @@ license: CC-BY-4.0
 ---
 ```
 
-`id` is a permanent machine identifier and must not change after release. `slug` is the permanent public path and must match the directory name. `publicationType` identifies the public editorial status; use `discussion-draft` for a published request for discussion. `edition` is the semantic version published in release tags. `canonicalUrl` is optional and should be supplied only when another public page is the canonical reader URL.
+`id` is a permanent machine identifier and must not change after release. `slug` is the permanent public path and must match the directory name. `publicationType` identifies the public editorial status; use `discussion-draft` for a published request for discussion and `decision-paper` for a publication that requests a specific governance decision. `edition` is the semantic version published in release tags. `canonicalUrl` is optional and should be supplied only when another public page is the canonical reader URL.
 
 Use `status: draft` while work is unpublished; drafts validate but are excluded from the public catalog and RSS feed. Before opening a pull request, run:
 
