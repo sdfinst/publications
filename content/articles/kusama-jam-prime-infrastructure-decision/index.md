@@ -1,6 +1,6 @@
 ---
-id: kusama-infrastructure-decision-jam
-slug: kusama-infrastructure-decision-jam
+id: kusama-jam-prime-infrastructure-decision
+slug: kusama-jam-prime-infrastructure-decision
 title: Kusama on JAM Prime: The Infrastructure Decision
 summary: A decision paper on protected capacity, flexible coretime and Kusama’s operating runway.
 authors:
