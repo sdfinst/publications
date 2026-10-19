@@ -14,7 +14,7 @@
     "updated": { "type": "string", "format": "date" },
     "tags": { "type": "array", "items": { "type": "string", "minLength": 1 } },
     "status": { "enum": ["draft", "published"] },
-    "publicationType": { "enum": ["discussion-draft", "position-paper", "research-paper", "report"] },
+    "publicationType": { "enum": ["discussion-draft", "position-paper", "decision-paper", "research-paper", "report"] },
     "edition": { "type": "string", "pattern": "^(?:0|[1-9][0-9]*)\\.(?:0|[1-9][0-9]*)\\.(?:0|[1-9][0-9]*)$" },
     "license": { "type": "string", "minLength": 1 },
     "canonicalUrl": { "type": "string", "format": "uri" }
