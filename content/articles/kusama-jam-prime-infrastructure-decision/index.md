@@ -32,7 +32,7 @@ license: CC-BY-4.0
 
 **Appendix B | Polkadot acceptance.** The corresponding DOT-side resolution following selection of one Kusama proposal.
 
-**Disclosures and acknowledgements.** The primary author leads a JAM implementation project, has business interests in staking and ventures researching or using JAM infrastructure, and has economic exposure to both ecosystems. The authors’ judgments are their own. Public discussion and technical conversations informed this work; governance support remains for the respective communities to determine. AI tools assisted research, drafting and editing, and the authors take responsibility for the paper. The authors thank participants who contributed evidence, criticism and technical assessment.
+**Disclosures and acknowledgements.** The authors write from informed positions. Primary author leads a JAM Implementation project, and his engineering team was the first to fully complete Milestone 1 of the JAM Prize. Additionally, the primary author has business interests in staking operations, in ventures seeking to research and utilise JAM infrastructure, and has economic exposure to both ecosystems. Views expressed are authors’ own and do not represent other JAM implementers or related organisations. Any mandate to pursue or implement the scenarios discussed ultimately rests with KSM DAO and, where Polkadot resources or commitments are involved, potentially with DOT DAO. AI tools were used to assist with research, drafting and editing; the authors take full responsibility and ownership for the arguments, suggestions and conclusions presented. Thanks are due to fellow JAM implementers who provided technical review; such review does not imply endorsement of the paper’s suggestions and conclusions.
 
 ## Abstract
 
@@ -177,7 +177,7 @@ The system-base calculation uses Asset Hub, Coretime, People, Bridge Hub and Enc
 
 Both components form part of the protected footprint package for the agreed term. KSM governance determines participant quotas, backing for future upgrades and permissible reallocation. Releasing a parachain’s transitional backing requires replacement backing or removal of the dependent state. Overlapping upgrades and state growth require additional backing before they exceed the participant’s quota. A material increase in the total ceiling returns to governance. [2]
 
-The Fellowship must quantify sufficient always-accumulate resources and define their protected configuration. It should establish how any supplementary workloads use available allowances or obtain additional resources while preserving the operating base.
+The Fellowship must quantify sufficient always-accumulate resources and define their protected configuration.
 
 Every proposal requires effective KSM control over internal allocation, authorization, service administration and upgrades. The implemented boundary must protect the agreed resources and authority against ordinary unilateral revocation, reassignment or material impairment. The same standard applies to all four proposals, including restrictions on manager and supervisory powers and continuity through host upgrades.
 
@@ -359,8 +359,6 @@ The authors advocate cohabitation and remain neutral among the four proposals. F
 
 ### A.1 Infrastructure Wish-for-Change proposal 1 (8 cores for 5 years)
 
-The earlier 7-core planning baseline provides for 5 system parachains, leaving up to 1 core for other workloads or reserves within this endowment. This proposal provides the greatest reserved capacity among the four options and 5 years of protected infrastructure. The Fellowship must assess the actual operating arrangement and footprint.
-
 **Proposed resolution**
 
 Subject to selection by the rules in this resolution, Kusama’s token-holder governance (KSM DAO) supports a complete security and resource endowment on **JAM Prime**, the Polkadot-aligned JAM instance contemplated as shared infrastructure, comprising **8 cores for 5 years**, totaling **40 coretime-years (CTYs)**, on these terms.
@@ -385,7 +383,7 @@ The system base uses the planning model for 5 system chains (Asset Hub, Coretime
 
 KSM governance must define participant quotas, future upgrade backing and permissible reallocation. Participants must secure additional backing before state growth or overlapping upgrades exceed their quotas. Transitional backing may be released only once replacement backing is in place or the dependent state has been removed. The complete footprint entitlement remains protected throughout the agreed term.
 
-KSM governance may permit additional Kusama activity using separately funded JAM coretime where the implemented service supports it. Additional purchases follow their own availability, pricing, duration and protection terms. Their footprint, always-accumulate resources and maintenance needs must fit assessed available capacity or receive additional funded provision. Such purchases do not enlarge this endowment or automatically acquire its resource protections, protected term or stewardship commitments.
+KSM governance may permit additional Kusama activity using separately funded JAM coretime where the implemented service supports it. Additional purchases follow their own availability, pricing and duration. Their footprint needs must fit assessed available capacity or receive additional funded provision. Such purchases do not enlarge this endowment or automatically acquire its resource protections, protected term or stewardship commitments.
 
 **3. Protected KSM control.** KSM governance retains authority over service upgrades, internal governance, monetary policy, authorizers and internal resource assignment. It determines reservations for retained functions and the permitted uses and conditions for releasing other endowed capacity. The implemented boundary must prevent ordinary unilateral revocation, reassignment or material impairment through manager and other host administrative powers. Protection covers the agreed compute, effective footprint backing, always-accumulate resources and KSM authority through host upgrades throughout the term.
 
@@ -421,8 +419,6 @@ Only the winner advances to Polkadot’s token-holder governance (DOT DAO) for a
 
 ### A.2 Infrastructure Wish-for-Change proposal 2 (6 cores for 6 years and 8 months)
 
-This proposal provides 6 years and 8 months of protected infrastructure and 40 CTYs. Supporting the retained offering within 6 reserved cores requires adapting the earlier 7-core system baseline. The Fellowship should assess consolidation, scheduling and performance changes, and the functions that can be retained within the resource package. KSM governance determines the offering.
-
 **Proposed resolution**
 
 Subject to selection by the rules in this resolution, Kusama’s token-holder governance (KSM DAO) supports a complete security and resource endowment on **JAM Prime**, the Polkadot-aligned JAM instance contemplated as shared infrastructure, comprising **6 cores for 6 years and 8 months**, totaling **40 coretime-years (CTYs)**, on these terms.
@@ -447,7 +443,7 @@ The system base uses the planning model for 5 system chains (Asset Hub, Coretime
 
 KSM governance must define participant quotas, future upgrade backing and permissible reallocation. Participants must secure additional backing before state growth or overlapping upgrades exceed their quotas. Transitional backing may be released only once replacement backing is in place or the dependent state has been removed. The complete footprint entitlement remains protected throughout the agreed term.
 
-KSM governance may permit additional Kusama activity using separately funded JAM coretime where the implemented service supports it. Additional purchases follow their own availability, pricing, duration and protection terms. Their footprint, always-accumulate resources and maintenance needs must fit assessed available capacity or receive additional funded provision. Such purchases do not enlarge this endowment or automatically acquire its resource protections, protected term or stewardship commitments.
+KSM governance may permit additional Kusama activity using separately funded JAM coretime where the implemented service supports it. Additional purchases follow their own availability, pricing and duration. Their footprint needs must fit assessed available capacity or receive additional funded provision. Such purchases do not enlarge this endowment or automatically acquire its resource protections, protected term or stewardship commitments.
 
 **3. Protected KSM control.** KSM governance retains authority over service upgrades, internal governance, monetary policy, authorizers and internal resource assignment. It determines reservations for retained functions and the permitted uses and conditions for releasing other endowed capacity. The implemented boundary must prevent ordinary unilateral revocation, reassignment or material impairment through manager and other host administrative powers. Protection covers the agreed compute, effective footprint backing, always-accumulate resources and KSM authority through host upgrades throughout the term.
 
@@ -483,8 +479,6 @@ Only the winner advances to Polkadot’s token-holder governance (DOT DAO) for a
 
 ### A.3 Infrastructure Wish-for-Change proposal 3 (4 cores for 10 years)
 
-This proposal provides 10 years for a reduced or consolidated offering supported by the endowment. Operating that offering within 4 reserved cores requires adapting the earlier 7-core system baseline. Fellowship assessment must establish resource sufficiency; KSM governance decides which functions to retain, consolidate, access through shared services or discontinue.
-
 **Proposed resolution**
 
 Subject to selection by the rules in this resolution, Kusama’s token-holder governance (KSM DAO) supports a complete security and resource endowment on **JAM Prime**, the Polkadot-aligned JAM instance contemplated as shared infrastructure, comprising **4 cores for 10 years**, totaling **40 coretime-years (CTYs)**, on these terms.
@@ -509,7 +503,7 @@ The system base uses the planning model for 5 system chains (Asset Hub, Coretime
 
 KSM governance must define participant quotas, future upgrade backing and permissible reallocation. Participants must secure additional backing before state growth or overlapping upgrades exceed their quotas. Transitional backing may be released only once replacement backing is in place or the dependent state has been removed. The complete footprint entitlement remains protected throughout the agreed term.
 
-KSM governance may permit additional Kusama activity using separately funded JAM coretime where the implemented service supports it. Additional purchases follow their own availability, pricing, duration and protection terms. Their footprint, always-accumulate resources and maintenance needs must fit assessed available capacity or receive additional funded provision. Such purchases do not enlarge this endowment or automatically acquire its resource protections, protected term or stewardship commitments.
+KSM governance may permit additional Kusama activity using separately funded JAM coretime where the implemented service supports it. Additional purchases follow their own availability, pricing and duration. Their footprint needs must fit assessed available capacity or receive additional funded provision. Such purchases do not enlarge this endowment or automatically acquire its resource protections, protected term or stewardship commitments.
 
 **3. Protected KSM control.** KSM governance retains authority over service upgrades, internal governance, monetary policy, authorizers and internal resource assignment. It determines reservations for retained functions and the permitted uses and conditions for releasing other endowed capacity. The implemented boundary must prevent ordinary unilateral revocation, reassignment or material impairment through manager and other host administrative powers. Protection covers the agreed compute, effective footprint backing, always-accumulate resources and KSM authority through host upgrades throughout the term.
 
@@ -545,8 +539,6 @@ Only the winner advances to Polkadot’s token-holder governance (DOT DAO) for a
 
 ### A.4 Infrastructure Wish-for-Change proposal 4 (2 cores for 20 years)
 
-This proposal provides 20 years of protected infrastructure and 40 CTYs. KSM governance identifies the essential functions to be supported by the endowment, and the Fellowship assesses a viable arrangement within 2 reserved cores and the footprint ceiling. The protected term requires continuity of the agreed resources, KSM control and maintenance through technical changes.
-
 **Proposed resolution**
 
 Subject to selection by the rules in this resolution, Kusama’s token-holder governance (KSM DAO) supports a complete security and resource endowment on **JAM Prime**, the Polkadot-aligned JAM instance contemplated as shared infrastructure, comprising **2 cores for 20 years**, totaling **40 coretime-years (CTYs)**, on these terms.
@@ -571,7 +563,7 @@ The system base uses the planning model for 5 system chains (Asset Hub, Coretime
 
 KSM governance must define participant quotas, future upgrade backing and permissible reallocation. Participants must secure additional backing before state growth or overlapping upgrades exceed their quotas. Transitional backing may be released only once replacement backing is in place or the dependent state has been removed. The complete footprint entitlement remains protected throughout the agreed term.
 
-KSM governance may permit additional Kusama activity using separately funded JAM coretime where the implemented service supports it. Additional purchases follow their own availability, pricing, duration and protection terms. Their footprint, always-accumulate resources and maintenance needs must fit assessed available capacity or receive additional funded provision. Such purchases do not enlarge this endowment or automatically acquire its resource protections, protected term or stewardship commitments.
+KSM governance may permit additional Kusama activity using separately funded JAM coretime where the implemented service supports it. Additional purchases follow their own availability, pricing and duration. Their footprint needs must fit assessed available capacity or receive additional funded provision. Such purchases do not enlarge this endowment or automatically acquire its resource protections, protected term or stewardship commitments.
 
 **3. Protected KSM control.** KSM governance retains authority over service upgrades, internal governance, monetary policy, authorizers and internal resource assignment. It determines reservations for retained functions and the permitted uses and conditions for releasing other endowed capacity. The implemented boundary must prevent ordinary unilateral revocation, reassignment or material impairment through manager and other host administrative powers. Protection covers the agreed compute, effective footprint backing, always-accumulate resources and KSM authority through host upgrades throughout the term.
 
@@ -636,7 +628,7 @@ The system base uses the planning model for 5 system chains (Asset Hub, Coretime
 
 KSM governance must define participant quotas, future upgrade backing and permissible reallocation. Participants must secure additional backing before state growth or overlapping upgrades exceed their quotas. Transitional backing may be released only once replacement backing is in place or the dependent state has been removed. The complete footprint entitlement remains protected throughout the agreed term.
 
-KSM governance may permit additional Kusama activity using separately funded JAM coretime where the implemented service supports it. Additional purchases follow their own availability, pricing, duration and protection terms. Their footprint, always-accumulate resources and maintenance needs must fit assessed available capacity or receive additional funded provision. Such purchases do not enlarge this endowment or automatically acquire its resource protections, protected term or stewardship commitments.
+KSM governance may permit additional Kusama activity using separately funded JAM coretime where the implemented service supports it. Additional purchases follow their own availability, pricing, and duration. Their footprint needs must fit assessed available capacity or receive additional funded provision. Such purchases do not enlarge this endowment or automatically acquire its resource protections, protected term or stewardship commitments.
 
 **4. Fellowship mandate and duration.** An accepted Polkadot Fellowship mandate covers technical assessment, architecture, implementation, migration and maintenance of the agreed operating scope. The Fellowship should assess the system base and initial migration needs separately and establish a viable arrangement within the reserved compute, assessed footprint and sufficient always-accumulate resources. It should assess use of externally acquired JAM coretime by the Kusama service, including possible direct purchases by users, the associated authorization and operating requirements, and controls over endowed capacity released for use elsewhere.
 
